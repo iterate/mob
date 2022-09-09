@@ -15,6 +15,7 @@ function App() {
         </header>
         <main className="main">
           <hr />
+          <a href="#Employees">Ansatte</a>
           <Content />
           <hr />
           <Employees />

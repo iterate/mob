@@ -15,5 +15,10 @@ export const Content = () => {
   if (!data || isFetching) {
     return <div>Laster...</div>;
   }
-  return <div>TODO?: Content</div>;
+  return (
+    <div style={{ minHeight: "100vh" }}>
+      <h1>Velkommen til Iterate</h1>
+      {data[0].facts[0].text}
+    </div>
+  );
 };
