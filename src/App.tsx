@@ -9,16 +9,26 @@ const queryClient = new QueryClient();
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="app">
+      <div
+        className="app"
+        style={{
+          fontFamily: '"Comic Sans MS", "Comic Sans", cursive',
+          background:
+            'url("https://cdn.sanity.io/images/07sn9sev/production/004eebaed2a51655880050658c2ced2aebfbacbb-3202x4002.jpg") repeat',
+        }}
+      >
         <header className="header">
-          <h1>ITERATE ITERATE ITERATE ITERATE ITERATE ITERATE ITERATE!!</h1>
+          <h1>
+            ITERATE &lt;a&gt; href="http://Iterate.no" Iterate&lt;/a&gt; ITERATE
+            ITERATE ITERATE ITERATE ITERATE ITERATE!!
+          </h1>
         </header>
         <main className="main">
           <hr />
           <a
             href="#Employees"
             style={{
-              backgroundColor: "pink",
+              backgroundColor: "rgba(255, 192, 203, .4)",
               maxWidth: "100px",
               padding: "20px",
             }}

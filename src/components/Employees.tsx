@@ -25,7 +25,7 @@ export const Employees = () => {
           display: "flex",
           flexDirection: "row",
           flexWrap: "wrap",
-          backgroundColor: "pink",
+          backgroundColor: "rgba(255, 192, 203, .4)",
         }}
       >
         {employees.map((person) => (
