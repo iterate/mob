@@ -1,6 +1,19 @@
 # Nye(ere) Iterate.no
 Hjelp! Iterate trenger ny nettside. 
 
+## Hva trenger vi?
+- [ ] Et fresht favicon
+- [ ] Ny font 
+- [ ] Noe om våre ansatte  
+- [ ] Noe om hva vi lager 
+- [ ] Link til jobbsøknad
+- [ ] Noe som er nyttig for ansatte
+- [ ] Freeeeeshe animasjoner
+- [ ] Et spill
+- [ ] Oppskrift på hvordan lage en suksessfull startup
+- [ ] noe gøy
+
+
 ## Available Scripts
 
 In the project directory, you can run:
