@@ -1,8 +1,54 @@
 body {
   margin: 0;
+  padding: 50px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://cdn.sanity.io/images/07sn9sev/production/004eebaed2a51655880050658c2ced2aebfbacbb-3202x4002.jpg");
+  backdrop-filter: invert(0.7);
+  background-attachment: fixed;
+}
+a:hover {
+  transform: translateX(100%);
+}
+h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+* {
+  animation: colors 4s infinite;
+}
+@keyframes spin {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes colors {
+  from {
+    color: yellow;
+  }
+  25% {
+    color: pink;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: peru;
+  }
+  to {
+    color: blue;
+  }
+}
+img {
+  animation: spin 1s infinite;
 }
 
 code {
