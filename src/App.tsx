@@ -9,13 +9,27 @@ const queryClient = new QueryClient();
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <header className="header">
-        <h1>ITERATE ITERATE ITERATE</h1>
-        <hr />
-        <Content />
-        <hr />
-        <Employees />
-      </header>
+      <div className="app">
+        <header className="header">
+          <h1>ITERATE ITERATE ITERATE</h1>
+        </header>
+        <main className="main">
+          <hr />
+          <Content />
+          <hr />
+          <Employees />
+        </main>
+        <footer className="footer">
+          <p>Made with ❤️ by bedex</p>
+          <a
+            href="https://webflow2.iterate.no/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Learn more about Iterate here
+          </a>
+        </footer>
+      </div>
     </QueryClientProvider>
   );
 }
