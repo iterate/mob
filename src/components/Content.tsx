@@ -16,7 +16,7 @@ export const Content = () => {
     return <div>Laster...</div>;
   }
   return (
-    <div style={{ minHeight: "100vh" }}>
+    <div style={{}}>
       <h1>Velkommen til Iterate</h1>
       {data[0].facts[0].text}
       {data.map((element) => {

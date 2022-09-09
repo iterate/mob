@@ -11,17 +11,26 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <div className="app">
         <header className="header">
-          <h1>ITERATE ITERATE ITERATE ITERATE ITERATE ITERATE</h1>
+          <h1>ITERATE ITERATE ITERATE ITERATE ITERATE ITERATE ITERATE!!</h1>
         </header>
         <main className="main">
           <hr />
-          <a href="#Employees">Ansatte</a>
-          <Employees />
-          <hr />
+          <a
+            href="#Employees"
+            style={{
+              backgroundColor: "pink",
+              maxWidth: "100px",
+              padding: "20px",
+            }}
+          >
+            Ansatte
+          </a>
           <Content />
+          <hr />
+          <Employees />
         </main>
         <footer className="footer">
-          <p>Made with ❤️ by bedex</p>
+          <p>Made with ❤️ by KRABBELAGET</p>
           <a
             className="link"
             href="https://webflow2.iterate.no/"
