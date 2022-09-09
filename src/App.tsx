@@ -11,14 +11,14 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <div className="app">
         <header className="header">
-          <h1>ITERATE ITERATE ITERATE</h1>
+          <h1>ITERATE ITERATE ITERATE ITERATE ITERATE ITERATE</h1>
         </header>
         <main className="main">
           <hr />
           <a href="#Employees">Ansatte</a>
-          <Content />
-          <hr />
           <Employees />
+          <hr />
+          <Content />
         </main>
         <footer className="footer">
           <p>Made with ❤️ by bedex</p>
