@@ -22,6 +22,7 @@ function App() {
         <footer className="footer">
           <p>Made with ❤️ by bedex</p>
           <a
+            className="link"
             href="https://webflow2.iterate.no/"
             target="_blank"
             rel="noreferrer"

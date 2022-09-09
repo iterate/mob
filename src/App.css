@@ -21,4 +21,13 @@
   background-color: black;
   color: white;
   text-align: center;
+  padding: 24px;
+}
+
+.link {
+  color: white;
+}
+
+.link:visited {
+  color: seashell;
 }
