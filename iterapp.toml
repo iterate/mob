@@ -1,3 +1,6 @@
 port = 80
 readiness_path = "/"
 emoji = "🗿"
+
+from_to_www_redirect=true
+domains=["www.iterate.no"]
